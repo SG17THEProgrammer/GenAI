@@ -1,0 +1,87 @@
+➡️Principles of Responsible AI:
+
+•Fairness : free from bias and discrimination and that they treat everyone fairly and equally.
+
+•Inclusiveness : (Broadly Distributed Benefits)
+    •benefits all of humanity—not just a few—and prevent uses that concentrate power or cause harm 
+
+•Reliability/Safety : rigorous testing, alignment research, red‑teaming, and gradual deployment monitored in real-world use
+
+•Security & Privacy: Safeguard systems and user data via penetration testing, access controls, encryption, anonymization, bug bounties, and privacy-by-design practices
+    ◽Anonymization : removes or irreversibly alters personally identifiable information (PII)—like names, addresses, or IDs
+
+    ◽Bug Bounties: organizations reward ethical hackers (white hats) for reporting software vulnerabilities 
+      •proactive penetration testing
+
+    ◽privacy-by-design : An engineering and policy framework where privacy considerations are integrated  across the entire system design lifecycle, not added later
+
+        •Proactive (not reactive) privacy safeguards
+        •Privacy as default—no user action required
+        •Embedded into architecture
+        •Full functionality—a win‑win, not compromising capability
+        •End‑to‑end security
+        •Transparency & visibility
+        •User‑centrism 
+
+
+
+•Transparency : Publish detailed system cards, model specs, research, and risk frameworks to explain design choices and model limitations openly 
+
+•Accountability: Maintain oversight through an independent Safety & Security Committee, board review, external audits, and stakeholder feedback mechanisms
+
+
+➡️ potentially harmful results if AI not used properly:
+
+◽Hallucinations : when an LLM produces content that is either completely nonsensical or something we know is factually wrong based on other sources of information.
+
+◽Harmful content :
+•Providing instructions or encouraging self-harm or harm to certain groups.
+•Hateful or demeaning content.
+•Guiding the planning of any type of attack or violent acts.
+•Providing instructions on how to find illegal content or commit illegal acts.
+•Displaying sexually explicit content.
+
+
+
+➡️How to Use Generative AI Responsibly
+
+◽Identify: recognizing and understanding the potential risks, limitations, and impacts of using generative AI systems before and during their deployment.
+    •Identify Use Cases: what the AI will be used for, and whether that use is appropriate, ethical, and legal.
+    •Identify Stakeholders: who will be affected by the AI — users, customers, employees, communities — and consider their needs and concerns
+    •Identify Data Sources : Understand where your training data comes from—are there any biases, copyright issues, or private information?
+    •Compliance & Regulation : legal and regulatory standards that apply to your AI system—like data protection laws (e.g., GDPR).
+
+
+
+◽Measure Potential Harms : testing a diverse set of prompts users are most likely going to use is a good way to measure potential harm
+•We should prepare list of product related prompts beforehand
+
+
+
+◽Mitigate Potential Harms: prevent or limit the potential harm caused by the model and its responses
+    ▶️4 different layers of Mitigation : 
+        •Model: Choose right model for the right use case
+
+        •Safety System: set of tools and configurations on the platform serving the model that help mitigate harm
+           •Eg: content filtering system on the Azure OpenAI service
+
+        •Metaprompt and grounding: we can direct or limit the model based on certain behaviors and information
+
+        •User Experience: user interacts directly with the model through our application’s interface in some way. 
+            •Need to limit the user on the types of inputs they can send to the model as well as text or images displayed to the user.  
+
+        •Evaluate model: evaluate the model’s performance and outputs
+            •important to measure the model’s accuracy, similarity, groundedness, and relevance of the output
+            •provides transparency and trust to stakeholders and users.
+
+
+
+◽Operate a Responsible Generative AI solution : 
+    •partnering with other parts of our startup like Legal and Security to ensure we are compliant with all regulatory policies
+    •build plans around delivery, handling incidents, and rollback to prevent any harm to our users from growing
+
+
+
+
+➡️Tools that can be used : 
+Azure AI Content Safety can help detect harmful content and images via an API request.

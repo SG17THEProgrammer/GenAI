@@ -1,0 +1,36 @@
+➡️Core Concepts
+•Fabrication / Hallucination : AI genrated something which is not a fact 
+•Prompt Engg. : In this we iteratively give prompts and analyze/evaluate it for the quality till we get the response we want.
+
+With prompt engg. we see how can we adjust variables(see image) so that we can get the best response for the prompt that we have given.
+
+➡️Why PE?
+
+◽Models are stochastic : For same i/p the model will give different o/p everytime. It may be incorrect and not according to your choice.
+
+◽Models can fabricate response (*Interesting*): 
+    •Eg. If we give a question like "Tell me the premise for the movie that won the 2026 best movie oscar" so some model like gpt-3.5-turbo will just make up something which really hasn't happened . 
+    That's fabrication  (See image -> fabrication)
+
+    •But better models like gpt-4-turbo will say that I can't deal with it as 2026 hasn't happened.
+    (See image -> gpt-4-turbo)
+
+    •Prompt engineering techniques like metaprompting and temperature configuration may reduce model fabrications to some extent.
+
+◽Models capabilities will vary 
+    Prompt engineering can help us develop best practices and workflows that abstract away differences and adapt to model-specific requirements in scalable, seamless ways
+
+
+
+➡️Prompt Engg. Techniques (See image --> Techniques)
+We can play with our prompts and accordingly we'll getting the response 
+•If you write prompt in some pattern it will give response according to that 
+
+◽In Zero shot it kind of completes the sentence 
+◽In few shots it follows the example/pattern you have provided.
+
+
+
+
+
+

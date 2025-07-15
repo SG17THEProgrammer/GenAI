@@ -1,0 +1,29 @@
+After deep learning, a new model architecture – called Transformer – overcame the limits of RNNs, being able to get much longer sequences of text as input
+
+◽ enabling the model to give different weights to the inputs
+◽ ‘paying more attention’ where the most relevant information
+
+GENAI models = LLM ( trained on a huge amount of unlabeled data)
+
+
+➡️LLM Working??
+
+OpenAI GPT (Generative Pre-trained Transformer) 
+◽Tokenizer, text to numbers
+    ◽statistical models works better with numbers than text sequences
+    (See Image)
+
+◽Predicting output tokens
+    ◽model is able to predict one token as output
+    ◽that token is then incorporated into the input of the next iteration
+
+◽Selection process, probability distribution
+    ◽choosen according to the probability of occurring after the current text sequence.
+    ◽not always is the token with the highest probability chosen from the resulting distribution
+    ◽degree of randomness is added to this choice, in a way that the model acts in a non-deterministic fashion 
+    ◽This degree of randomness is added to simulate the process of "creative thinking" and it can be tuned using a model parameter called temperature.
+
+
+◽The input of a large language model is known as a prompt, 
+◽the output is known as a completion 
+(term that refers to the model mechanism of generating the next token to complete the current input)

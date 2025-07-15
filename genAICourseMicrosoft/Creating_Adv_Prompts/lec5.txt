@@ -1,0 +1,33 @@
+➡️ Techniques for prompting
+
+There are some basic techniques that we can use to prompt an LLM:
+
+◽Zero-shot prompting
+•This is the most basic form of prompting 
+•It's a single prompt requesting a response from the LLM based solely on its training data.
+
+◽Few-shot prompting
+•This type of prompting guides the LLM by providing 1 or more examples it can rely on to generate its response.
+
+◽Chain-of-thought 
+•This type of prompting tells the LLM how to break down a problem into steps.
+•We guide AI model to take steps like first do A, then B, then C and so on to reach the solution 
+•The model will mimic that and can take on more advance problems. 
+
+
+◽Generated knowledge
+•to improve the response of a prompt
+•Can provide generated facts or knowledge additionally to your prompt.
+
+◽Least to most (like chain-of-thought)
+•This technique is about breaking down a problem into a series of steps and then ask these steps to be performed in order.
+
+🔶Below two for validating response : 
+
+◽Self-refine, 
+•This technique is about critiquing the LLM's output and then asking it to improve.
+•We're asking that are you sure about these facts? 
+•How about going for a another round!!
+
+◽Maieutic prompting
+•What you want here is to ensure the LLM answer is correct and you ask it to explain various parts of the answer. This is a form of self-refine.
