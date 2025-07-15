@@ -21,13 +21,39 @@ There are some basic techniques that we can use to prompt an LLM:
 
 ◽Least to most (like chain-of-thought)
 •This technique is about breaking down a problem into a series of steps and then ask these steps to be performed in order.
+•It is used in data science where it is known that which steps are going to happen in what order 
 
 🔶Below two for validating response : 
 
 ◽Self-refine, 
 •This technique is about critiquing the LLM's output and then asking it to improve.
 •We're asking that are you sure about these facts? 
-•How about going for a another round!!
+•How about going for a another round!! Give more iterations 
 
 ◽Maieutic prompting
 •What you want here is to ensure the LLM answer is correct and you ask it to explain various parts of the answer. This is a form of self-refine.
+•Break down answer to different parts and for every part we are trying to ascertain that the response is correct or not . 
+
+
+
+➡️Let's deep dive into the chain of thoughts:
+So for example if we give our LLM a prompt something like do some math problem (long statement) then "some" LLM basically gives us a wrong answer.
+
+- Prompt: "Alice has 5 apples, throws 3 apples, gives 2 to Bob and Bob gives one back, how many apples does Alice have?"
+- Answer: 5 ✖️
+
+•So to improve this we need to tell the exact process of how the question is being done 
+•We will provide a similar question to the LLM and show it the whole calculation that how it is being solved 
+•Once we do this then if we give our original prompt then the llm will give us the correct answer.
+
+This is what chain of thoughts is !!!
+
+
+
+➡️ Let us deep dive into the generated knowledge prompting:
+• This allows us to provide information to our question as you need it.
+• So in this what we do is we provide LLM with an external data 
+
+•The idea is we first fetch the company data that we have and then we insert the data to the llm in the form of template and then we ask a particular question so it will hopefully give a better response.
+
+
