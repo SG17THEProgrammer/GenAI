@@ -1,0 +1,25 @@
+➡️     Chatbots                              v/s                      Chat Application 
+
+•Set of prescribed fine scripts & rules                     •New and context relevant responses in real time
+•Task-Focused and rule based	                            •Context-aware
+•Often integrated into larger systems	                    •May host one or multiple chatbots
+•Limited to programmed functions	                        •Incorporates generative AI models
+•Specialized & structured interactions	                    •Capable of open-domain discussions
+
+◽We can also apply customization through process called Fine-Tuning
+•Used when pre-trained model falls short in a specialized domain or specific task 
+
+Steps
+•Base model lenege that we'll train it with our training data.
+•Select training data (clean , format takes place)
+•Choice to apply hyperparameters
+    •Eg: No. of epochs
+•Start training the model with the dataset
+•Then we can use this fine-tuned model
+
+
+◽We can also apply customization through RAG
+•IRS that provides grounding data
+•In this there is no extra training ; the LLM is been pre-trained using public data and generates responses that are augumented by info from the retriever     
+
+

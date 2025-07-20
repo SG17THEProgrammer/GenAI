@@ -1,0 +1,27 @@
+➡️DALL-E 
+
+•DALL-E is a combination of two models, CLIP and diffused attention.
+    •CLIP, is a model that generates embeddings, which are numerical representations of data, from images and text.
+    •Diffused attention, is a model that generates images from embeddings. 
+•DALL-E is trained on a dataset of images and text and can be used to generate images from text descriptions. 
+•For example, DALL-E can be used to generate images of a cat in a hat, or a dog with a mohawk.
+
+
+➡️Midjourney
+•Midjourney, can also be used to generate images using prompts like “a cat in a hat”, or a “dog with a mohawk”.
+
+➡️How does DALL-E and Midjourney Work ❓
+◽DALL-E : based on the transformer architecture with an autoregressive transformer.
+    ▶️autoregressive transformer
+    •defines how a model generates images from text descriptions
+    •generates one pixel at a time, and then uses the generated pixels to generate the next pixel
+    •Passing through multiple layers in a neural network, until the image is complete.
+
+
+➡️Temperature is a parameter that controls the randomness of the output of a Generative AI model. The temperature is a value between 0 and 1 where 0 means that the output is deterministic and 1 means that the output is random.
+
+
+➡️Define boundaries for your application with metaprompts
+•Metaprompts are text prompts that are used to control the output of a Generative AI model. 
+•they are positioned before the text prompt
+•For example, we can use metaprompts to control the output, and ensure that the generated images are safe for work, or appropriate for children.
